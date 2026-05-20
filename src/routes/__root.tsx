@@ -75,11 +75,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "Deivid Beise — Engenharia de Software & Desenvolvimento Premium" },
       { name: "description", content: "Deivid Beise. Engenheiro de software e desenvolvedor freelancer. Interfaces premium, código cinematográfico, performance de outro nível." },
       { name: "author", content: "Deivid Beise" },
-      { property: "og:title", content: "Deivid Beise — Desenvolvimento Premium" },
-      { property: "og:description", content: "Soluções digitais sob medida, com estética de luxo e engenharia de ponta." },
+      { property: "og:title", content: "Deivid Beise — Engenharia de Software & Desenvolvimento Premium" },
+      { property: "og:description", content: "Deivid Beise. Engenheiro de software e desenvolvedor freelancer. Interfaces premium, código cinematográfico, performance de outro nível." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Deivid Beise — Engenharia de Software & Desenvolvimento Premium" },
+      { name: "twitter:description", content: "Deivid Beise. Engenheiro de software e desenvolvedor freelancer. Interfaces premium, código cinematográfico, performance de outro nível." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/2e4202dc-18f1-4a68-8e3b-ecf27a972e96" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/2e4202dc-18f1-4a68-8e3b-ecf27a972e96" },
     ],
     links: [
       {
