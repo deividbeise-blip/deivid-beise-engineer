@@ -43,7 +43,7 @@
   --card-foreground: oklch(0.97 0.005 270);
   --popover: oklch(0.17 0.012 270);
   --popover-foreground: oklch(0.97 0.005 270);
-  --primary: oklch(0.85 0.12 85);
+  --primary: oklch(0.78 0.17 150);
   --primary-foreground: oklch(0.13 0.01 270);
   --secondary: oklch(0.22 0.015 270);
   --secondary-foreground: oklch(0.97 0.005 270);
@@ -54,9 +54,9 @@
   --destructive: oklch(0.6 0.22 27);
   --border: oklch(1 0 0 / 8%);
   --input: oklch(1 0 0 / 12%);
-  --ring: oklch(0.85 0.12 85 / 50%);
-  --gold: oklch(0.82 0.13 82);
-  --gold-soft: oklch(0.78 0.09 75);
+  --ring: oklch(0.78 0.17 150 / 50%);
+  --gold: oklch(0.78 0.17 150);
+  --gold-soft: oklch(0.72 0.14 155);
 }
 
 .dark {
@@ -66,7 +66,7 @@
   --card-foreground: oklch(0.98 0.003 270);
   --popover: oklch(0.15 0.01 270);
   --popover-foreground: oklch(0.98 0.003 270);
-  --primary: oklch(0.85 0.12 85);
+  --primary: oklch(0.78 0.17 150);
   --primary-foreground: oklch(0.11 0.008 270);
   --secondary: oklch(0.2 0.012 270);
   --secondary-foreground: oklch(0.98 0.003 270);
@@ -77,9 +77,9 @@
   --destructive: oklch(0.65 0.2 27);
   --border: oklch(1 0 0 / 8%);
   --input: oklch(1 0 0 / 12%);
-  --ring: oklch(0.85 0.12 85 / 50%);
-  --gold: oklch(0.84 0.13 82);
-  --gold-soft: oklch(0.78 0.09 75);
+  --ring: oklch(0.78 0.17 150 / 50%);
+  --gold: oklch(0.8 0.17 150);
+  --gold-soft: oklch(0.72 0.14 155);
 }
 
 @layer base {
@@ -98,7 +98,7 @@
     overflow-x: hidden;
   }
   ::selection {
-    background: oklch(0.84 0.13 82 / 30%);
+    background: oklch(0.78 0.17 150 / 30%);
     color: oklch(0.98 0.003 270);
   }
 }
@@ -136,9 +136,9 @@
   .gradient-text-gold {
     background: linear-gradient(
       135deg,
-      oklch(0.95 0.06 90) 0%,
-      oklch(0.82 0.13 82) 50%,
-      oklch(0.65 0.12 60) 100%
+      oklch(0.92 0.12 150) 0%,
+      oklch(0.78 0.17 150) 50%,
+      oklch(0.55 0.15 155) 100%
     );
     -webkit-background-clip: text;
     background-clip: text;
@@ -156,9 +156,9 @@
   }
   .glow-gold {
     box-shadow:
-      0 0 0 1px oklch(0.84 0.13 82 / 30%),
-      0 0 40px -5px oklch(0.84 0.13 82 / 40%),
-      0 20px 60px -20px oklch(0.84 0.13 82 / 30%);
+      0 0 0 1px oklch(0.78 0.17 150 / 30%),
+      0 0 40px -5px oklch(0.78 0.17 150 / 40%),
+      0 20px 60px -20px oklch(0.78 0.17 150 / 30%);
   }
   .hover-glow {
     transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
@@ -167,8 +167,8 @@
     transform: translateY(-4px);
     box-shadow:
       0 30px 60px -20px oklch(0 0 0 / 60%),
-      0 0 0 1px oklch(0.84 0.13 82 / 25%),
-      0 0 80px -10px oklch(0.84 0.13 82 / 25%);
+      0 0 0 1px oklch(0.78 0.17 150 / 25%),
+      0 0 80px -10px oklch(0.78 0.17 150 / 25%);
   }
   .noise::after {
     content: "";
