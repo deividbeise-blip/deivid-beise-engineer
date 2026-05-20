@@ -81,7 +81,7 @@ function Nav() {
           }`}
         >
           <a href="#top" className="flex items-center gap-2 group">
-            <div className="h-8 w-8 rounded-full bg-gradient-to-br from-[oklch(0.95_0.06_90)] via-gold to-[oklch(0.55_0.12_50)] flex items-center justify-center text-[10px] font-bold text-background tracking-tight">
+            <div className="h-8 w-8 rounded-full bg-gradient-to-br from-[oklch(0.92_0.12_150)] via-gold to-[oklch(0.5_0.15_155)] flex items-center justify-center text-[10px] font-bold text-background tracking-tight">
               DB
             </div>
             <span className="text-sm tracking-[0.2em] uppercase font-medium text-foreground/90">
@@ -208,7 +208,7 @@ function Hero() {
             >
               <span className="relative z-10">Iniciar projeto no WhatsApp</span>
               <ArrowUpRight className="relative z-10 h-4 w-4 transition-transform duration-500 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-              <span className="absolute inset-0 bg-gradient-to-r from-gold via-[oklch(0.9_0.1_90)] to-gold opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+              <span className="absolute inset-0 bg-gradient-to-r from-gold via-[oklch(0.88_0.15_150)] to-gold opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
             </a>
             <a
               href="#work"
@@ -608,7 +608,7 @@ function CTA() {
                   href={WHATSAPP}
                   target="_blank"
                   rel="noreferrer"
-                  className="group relative inline-flex items-center gap-3 rounded-full bg-gradient-to-r from-[oklch(0.95_0.06_90)] via-gold to-[oklch(0.6_0.15_55)] text-background px-9 py-5 text-base font-medium overflow-hidden glow-gold transition-all duration-500 hover:scale-[1.02]"
+                  className="group relative inline-flex items-center gap-3 rounded-full bg-gradient-to-r from-[oklch(0.92_0.12_150)] via-gold to-[oklch(0.55_0.16_155)] text-background px-9 py-5 text-base font-medium overflow-hidden glow-gold transition-all duration-500 hover:scale-[1.02]"
                 >
                   <MessageCircle className="h-5 w-5" />
                   <span>Falar no WhatsApp</span>
@@ -638,7 +638,7 @@ function Footer() {
       <div className="mx-auto max-w-7xl grid md:grid-cols-12 gap-10 items-start">
         <div className="md:col-span-5">
           <div className="flex items-center gap-3">
-            <div className="h-10 w-10 rounded-full bg-gradient-to-br from-[oklch(0.95_0.06_90)] via-gold to-[oklch(0.55_0.12_50)] flex items-center justify-center text-xs font-bold text-background">
+            <div className="h-10 w-10 rounded-full bg-gradient-to-br from-[oklch(0.92_0.12_150)] via-gold to-[oklch(0.5_0.15_155)] flex items-center justify-center text-xs font-bold text-background">
               DB
             </div>
             <div>
@@ -738,7 +738,7 @@ function Index() {
         className="fixed bottom-6 right-6 z-50 group"
       >
         <span className="absolute inset-0 rounded-full bg-gold/40 blur-xl group-hover:bg-gold/60 transition-all" />
-        <span className="relative flex h-14 w-14 items-center justify-center rounded-full bg-gradient-to-br from-[oklch(0.95_0.06_90)] via-gold to-[oklch(0.55_0.12_50)] text-background shadow-2xl hover:scale-110 transition-transform duration-500">
+        <span className="relative flex h-14 w-14 items-center justify-center rounded-full bg-gradient-to-br from-[oklch(0.92_0.12_150)] via-gold to-[oklch(0.5_0.15_155)] text-background shadow-2xl hover:scale-110 transition-transform duration-500">
           <MessageCircle className="h-6 w-6" />
         </span>
       </a>
