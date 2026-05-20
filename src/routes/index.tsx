@@ -162,17 +162,6 @@ function Hero() {
         className="relative z-20 flex h-full flex-col justify-end pb-24 md:pb-32"
       >
         <div className="mx-auto w-full max-w-7xl px-6">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 0.6, ease: easeOut }}
-            className="inline-flex items-center gap-2 rounded-full glass px-4 py-1.5 mb-8"
-          >
-            <span className="h-1.5 w-1.5 rounded-full bg-gold animate-pulse" />
-            <span className="text-[11px] tracking-[0.25em] uppercase text-foreground/80">
-              Engenharia de Software · Freelance Premium
-            </span>
-          </motion.div>
 
           <motion.h1
             initial={{ opacity: 0, y: 40 }}
