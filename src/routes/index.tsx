@@ -19,6 +19,7 @@ import deividPortrait from "@/assets/deivid.jpg";
 import project1 from "@/assets/project-code-1.jpg";
 import project2 from "@/assets/project-code-2.jpg";
 import project3 from "@/assets/project-code-3.jpg";
+import projectWillian from "@/assets/project-willian.png";
 
 export const Route = createFileRoute("/")({
   component: Index,
