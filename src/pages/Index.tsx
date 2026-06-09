@@ -740,3 +740,5 @@ function Index() {
     </main>
   );
 }
+
+export default Index;
