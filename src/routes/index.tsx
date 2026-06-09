@@ -457,6 +457,7 @@ const works = [
     tag: "Landing · Gestão Financeira",
     desc: "Landing page cinematográfica para gestor financeiro — narrativa e conversão.",
     link: "https://willian-stumm-martin-invest.vercel.app/",
+    contain: true,
   },
 ];
 
