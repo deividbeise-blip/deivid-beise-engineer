@@ -1,4 +1,4 @@
-import { createFileRoute } from "@tanstack/react-router";
+
 import { motion, useScroll, useTransform, useReducedMotion } from "motion/react";
 import { useRef, useState, useEffect } from "react";
 import {
@@ -21,9 +21,6 @@ import project2 from "@/assets/project-code-2.jpg";
 import project3 from "@/assets/project-code-3.jpg";
 import projectWillian from "@/assets/project-willian.png";
 
-export const Route = createFileRoute("/")({
-  component: Index,
-});
 
 const WHATSAPP = "https://wa.me/5551985610152?text=Ol%C3%A1%20Deivid%2C%20vim%20do%20seu%20site.";
 const INSTAGRAM = "https://www.instagram.com/beisedeivid/";
@@ -743,3 +740,5 @@ function Index() {
     </main>
   );
 }
+
+export default Index;
