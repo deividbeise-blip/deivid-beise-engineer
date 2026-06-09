@@ -457,6 +457,7 @@ const works = [
     tag: "Landing · Gestão Financeira",
     desc: "Landing page cinematográfica para gestor financeiro — narrativa e conversão.",
     link: "https://willian-stumm-martin-invest.vercel.app/",
+    contain: true,
   },
 ];
 
@@ -492,7 +493,7 @@ function Work() {
                     src={w.img}
                     alt={w.title}
                     loading="lazy"
-                    className="h-full w-full object-cover transition-transform duration-[1.6s] ease-out group-hover:scale-110"
+                    className={`h-full w-full transition-transform duration-[1.6s] ease-out group-hover:scale-110 ${w.contain ? "object-contain bg-black/40" : "object-cover"}`}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-background via-background/30 to-transparent" />
                   <div className="absolute top-5 right-5 h-10 w-10 rounded-full glass-strong flex items-center justify-center opacity-0 group-hover:opacity-100 -translate-y-2 group-hover:translate-y-0 transition-all duration-500">
