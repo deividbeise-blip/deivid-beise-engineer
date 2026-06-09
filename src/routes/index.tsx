@@ -451,6 +451,13 @@ const works = [
     desc: "Stack moderna com Apollo, Material UI e tema dinâmico.",
     link: "#",
   },
+  {
+    img: projectWillian,
+    title: "Willian Stumm Martin",
+    tag: "Landing · Gestão Financeira",
+    desc: "Landing page cinematográfica para gestor financeiro — narrativa e conversão.",
+    link: "https://willian-stumm-martin-invest.vercel.app/",
+  },
 ];
 
 function Work() {
