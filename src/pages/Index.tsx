@@ -20,6 +20,8 @@ import project1 from "@/assets/project-code-1.jpg";
 import project2 from "@/assets/project-code-2.jpg";
 import project3 from "@/assets/project-code-3.jpg";
 import projectWillian from "@/assets/project-willian.png";
+import VideoDrop from "@/components/VideoDrop";
+
 
 
 const WHATSAPP = "https://wa.me/5551985610152?text=Ol%C3%A1%20Deivid%2C%20vim%20do%20seu%20site.";
@@ -509,8 +511,12 @@ function Work() {
               </a>
             </Reveal>
           ))}
+          <Reveal delay={works.length * 0.1}>
+            <VideoDrop />
+          </Reveal>
         </div>
       </div>
+
     </section>
   );
 }
